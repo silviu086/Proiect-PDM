@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mainActivityColor">#DDDDDD</color>
+    <color name="bgColor_login">#999999</color>
+    <color name="loginColor_text">#151515</color>
+    <color name="loginColor_buton">#652c9e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="loginColor_bg">#34579b</color>
+    <color name="actionbar_manu">#bbbad2</color>
+    <color name="switchColor">#666666</color>
+
+</resources>

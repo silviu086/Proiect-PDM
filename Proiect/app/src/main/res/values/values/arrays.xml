@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="optiuni">
+        <item>Acasa</item>
+        <item>Orar</item>
+        <item>Note</item>
+        <item>Informatii Utile</item>
+    </array>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_acasa"
+            android:title="Acasa"
+            android:icon="@drawable/acasa"
+            android:showAsAction="always"/>
+        <item
+            android:id="@+id/item_orar"
+            android:title="@string/item_orar_menuActivity"
+            android:icon="@drawable/orar"
+            android:showAsAction="always"/>
+        <item
+            android:id="@+id/item_note"
+            android:title="@string/item_note_menuActivity"
+            android:icon="@drawable/note"
+            android:showAsAction="always"/>
+        <item
+            android:id="@+id/item_informatii_utile"
+            android:title="@string/item_informatii_menuActivity"
+            android:icon="@drawable/informatii"
+            android:showAsAction="always"/>
+        <item
+            android:id="@+id/item_webpageCSIE"
+            android:title="Webpage CSIE"
+            android:icon="@drawable/webpage_csie"
+            android:showAsAction="always"/>
+
+    </group>
+
+</menu>

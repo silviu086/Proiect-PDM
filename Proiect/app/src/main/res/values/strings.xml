@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Proiect PDM</string>
+    <string name="titlu_loginActivity">Login</string>
+    <string name="username_loginActivity">Username</string>
+    <string name="password_loginActivity">Password</string>
+    <string name="btnLogin_loginActivity">Login</string>
+    <string name="item_optiuni_menuActivity">Optiuni</string>
+    <string name="item_orar_menuActivity">Orar</string>
+    <string name="item_note_menuActivity">Note</string>
+    <string name="item_informatii_menuActivity">Informatii Utile</string>
+    <string name="action_about">About</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hint_username">username</string>
+    <string name="hint_password">password</string>
+    <string name="login_checkbox">Logare permanenta</string>
+
+    <!-- Fragment Acasa-->
+    <string name="acasa_DateGenerale">Date generale</string>
+    <string name="acasa_Nume">Nume</string>
+    <string name="acasa_Localitate">Localitate</string>
+    <string name="acasa_Email">Email</string>
+    <string name="acasa_FormaInvatamant">Forma invatamant</string>
+    <string name="acasa_Specializare">Specializare</string>
+    <string name="acasa_AnStudiu">An Studiu</string>
+    <string name="acasa_Grupa">Grupa</string>
+    <string name="acasa_Seria">Seria</string>
+    <string name="acasa_FormaFinantare">Forma finantare</string>
+    <string name="acasa_DateFacultate">Date facultate</string>
+
+    <!-- Fragment Orar -->
+    <string name="orar_Luni">Luni</string>
+    <string name="orar_Marti">Marti</string>
+    <string name="orar_Miercuri">Miercuri</string>
+    <string name="orar_Joi">Joi</string>
+    <string name="orar_Vineri">Vineri</string>
+
+    <!-- Fragment Note -->
+    <string name="note_Materie">Materie</string>
+    <string name="note_Nota">Nota</string>
+    <string name="note_Credite">Credite</string>
+    <string name="note_a1s1">Anul 1 | Semestrul 1</string>
+    <string name="note_a1s2">Anul 1 | Semestrul 2</string>
+    <string name="note_a2s1">Anul 2 | Semestrul 1</string>
+    <string name="note_a2s2">Anul 2 | Semestrul 2</string>
+    <string name="note_a3s1">Anul 3 | Semestrul 1</string>
+    <string name="note_a3s2">Anul 3 | Semestrul 2</string>
+    <string name="note_switch">Afisare</string>
+
+
+</resources>

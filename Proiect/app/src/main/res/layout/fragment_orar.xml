@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/orar_Luni"
+                android:id="@+id/textViewTitleLuni"
+                style="@style/orar_title"/>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni1M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni1S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni1O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni2M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni2S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni2O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni3M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni3S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni3O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni4M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni4S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni4O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni5M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni5S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewLuni5O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+
+            </TableLayout>
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="22dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/textViewFooterLuni"
+                style="@style/orar_footer"/>
+
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/orar_Marti"
+                android:id="@+id/textViewTitleMarti"
+                style="@style/orar_title"/>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti1M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti1S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti1O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti2M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti2S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti2O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti3M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti3S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti3O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti4M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti4S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti4O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti5M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti5S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMarti5O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+
+                </TableRow>
+
+            </TableLayout>
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="22dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/textViewFooterMarti"
+                style="@style/orar_footer"/>
+
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/orar_Miercuri"
+                android:id="@+id/textViewTitleMiercuri"
+                style="@style/orar_title"/>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri1M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri1S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri1O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri2M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri2S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri2O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri3M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri3S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri3O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri4M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri4S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri4O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri5M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri5S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewMiercuri5O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+
+
+            </TableLayout>
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="22dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/textViewFooterMiercuri"
+                style="@style/orar_footer"/>
+
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/orar_Joi"
+                android:id="@+id/textViewTitleJoi"
+                style="@style/orar_title"/>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi1M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi1S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi1O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi2M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi2S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi2O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi3M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi3S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi3O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi4M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi4S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi4O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi5M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi5S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewJoi5O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+
+            </TableLayout>
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="22dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/textViewFooterJoi"
+                style="@style/orar_footer"/>
+
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/orar_Vineri"
+                android:id="@+id/textViewTitleVineri"
+                style="@style/orar_title"/>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri1M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri1S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri1O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri2M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri2S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri2O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri3M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri3S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri3O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri4M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri4S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri4O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri5M"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri5S"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewVineri5O"
+                        android:visibility="gone"
+                        style="@style/orar_cell"/>
+                </TableRow>
+
+
+            </TableLayout>
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="22dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/textViewFooterVineri"
+                style="@style/orar_footer"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MainActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:background">@color/mainActivityColor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="LoginActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:editTextStyle">@style/LoginActivityEditTextStyle</item>
+    </style>
+
+    <style name="LoginActivityEditTextStyle" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/loginColor_text</item>
+        <item name="android:background">@drawable/login_shape   </item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="MenuActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="titlu_LoginActivity">
+        <item name="android:textColor">#dadada</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">100px</item>
+    </style>
+
+    <style name="acasa_textview_left">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:width">130dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:background">@drawable/acasa_textview_left</item>
+    </style>
+
+    <style name="acasa_textview_right">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:background">@drawable/acasa_textview_right</item>
+    </style>
+
+    <style name="acasa_title">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/acasa_shape2</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="orar_title">
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/orar_shape_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="orar_cell">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/orar_shape_cell</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="orar_footer">
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/orar_shape_footer</item>
+    </style>
+
+    <style name="note_cell">
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+</resources>

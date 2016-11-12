@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Proiect</string>
+    <string name="titlu_loginActivity">LOGIN</string>
+    <string name="username_loginActivity">Username</string>
+    <string name="password_loginActivity">Password</string>
+    <string name="btnLogin_loginActivity">Login</string>
+    <string name="item_optiuni_menuActivity">Optiuni</string>
+    <string name="item_orar_menuActivity">Orar</string>
+    <string name="item_note_menuActivity">Note</string>
+    <string name="item_informatii_menuActivity">Informatii Utile</string>
+    <string name="descarcare">1</string>
+    <string name="open_drawer">aaaaa</string>
+    <string name="close_drawer">xxxxx</string>
+    <string name="action_settings">Settings</string>
+</resources>
